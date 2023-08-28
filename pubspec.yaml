@@ -1,0 +1,36 @@
+name: frontend
+description: login flutter project
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  velocity_x: ^3.6.0
+  http: ^0.13.5
+  # SharedPreferences > store a small amount of data in your local storage
+  shared_preferences: ^2.1.0
+  jwt_decoder: ^2.0.1
+  flutter_slidable: ^2.0.0
+  fluttertoast: ^8.2.1
+  table_calendar:
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  velocity_x: ^3.6.0
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - img/
